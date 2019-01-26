@@ -1,0 +1,48 @@
+title: Liminality
+# description:
+author: rugged-info
+about: Poet Hacker
+avatar_url: /static/img/hanuman-tweet.jpg
+
+enableTags: true
+tagarray: []
+
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "https://twitter.com/rugged_info"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "#"
+
+share:
+  twitter_username: rugged_info
+#  fb_appid:
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: Projects
+      url: /projects/
+
+url: "https://rugged-info.com"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
