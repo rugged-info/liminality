@@ -25,10 +25,6 @@ share:
 #  fb_appid:
 
 urls:
-    - text: About Me
-      url: /about/
-    - text: Projects
-      url: /projects/
 
 url: "https://rugged-info.com"
 baseurl: ""
